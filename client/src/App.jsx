@@ -15,7 +15,7 @@ function App() {
 
     try {
       const res = await axios.get(
-        `http://localhost:5000/api/weather/${city}`
+        `https://weather-app-mixv.onrender.com/api/weather/${city}`
       );
 
       setWeather(res.data);
